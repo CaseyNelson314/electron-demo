@@ -6,8 +6,12 @@ electron 練習用レポジトリ
 
 node.js 16.16.0
 
+## command
+
+electron-demo ディレクトリ上で実行
+
 ```
-// node moduleインストール
+// node module install
 npm install electron
 
 // run
