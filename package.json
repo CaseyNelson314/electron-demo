@@ -2,13 +2,14 @@
   "name": "electron",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "process.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start" : "electron ./src",
+    "build-win" : "electron-packager src HogwHoge --platform=win32 --arch=x64 --overwrite"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "CaseyNelson",
+  "license": "MIT",
   "devDependencies": {
     "electron": "^19.0.9",
     "electron-packager": "^15.5.1"
