@@ -13,6 +13,7 @@ app.whenReady().then(() => {
     }
   });
   window.loadFile("index.html");
+  window.webContents.openDevTools();
 });
 
 /// macOS dock

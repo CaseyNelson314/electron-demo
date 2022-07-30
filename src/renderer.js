@@ -1,3 +1,4 @@
-const t = document.getElementsById('time');
-
-t.innerText = 'へんこうするます！';
+document.getElementById("btn").click = () => {
+	const t = document.getElementsByClassName('time');
+	console.log(t.length);
+}

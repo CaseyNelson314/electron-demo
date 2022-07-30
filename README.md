@@ -1,6 +1,6 @@
 # electron-demo
-electron 練習用レポジトリ
 
+electron 練習用レポジトリ
 
 ## version
 
@@ -15,8 +15,8 @@ electron-demo ディレクトリ上で実行
 npm install electron
 
 // run
-npm run start
+npm start
 
 // build
-npm run build-win
+npm build-win
 ```
