@@ -12,7 +12,7 @@ electron-demo ディレクトリ上で実行
 
 ```
 // node module install
-npm install electron
+npm install
 
 // run
 npm start
